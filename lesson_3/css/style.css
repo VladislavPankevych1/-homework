@@ -1,22 +1,39 @@
-.title_site {
-	font-size: 36px;
+
+#header {
+    color: #2c3e50;
 }
 
-.text_beginning {
-	color: rgba(251, 230, 3, 0.908);
+.symbols_item_1 > h3 {
+    color: #2980b9;
 }
-.text_end {
-	color: rgb(9, 107, 178);
+
+
+.symbols_item_3 span {
+    color: #27ae60;
 }
-h2 {
-	font-size: 24px;
+
+
+.territory_of_Ukraine h2 + p {
+    color: #d35400;
 }
-span {
-	font-size: 18px;
+
+
+.history_of_Ukraine h2 ~ h3 {
+    color: #8e44ad;
 }
-h3 {
-	font-size: 24px;
+
+
+.text_beginning.text_end {
+    color: #c0392b;
 }
-h4 {
-	font-size: 20px;
+
+.independence-day h2, 
+.president_of_Ukraine h2, 
+.Ukrainian_traditions h2 {
+    color: #16a085;
+}
+
+
+[href*="info"] {
+    color: #f39c12;
 }
