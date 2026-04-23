@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <title>HomeWork4</title>
+</head>
+<body>
+    <header>
+        <h1 class="header_title">Як можно працювати в CSS з текстом.</h1>
+    </header>
+    <main>
+        <div class="font_families"  id="families">
+            <h2 class="font_families__title">Родини шрифтів та їх варіації</h2>
+            <p class="font_families__text">В CSS існує п'ять основних універсальних сімейств шрифтів (generic font families), які використовуються для визначення загального стилю тексту, я вам покажу 3 сімейства шрифта і як вони відображаються з прикладом</p>
+            <div class="font_serif">
+                <h2 class="font_serif__title">Serif</h2>
+                <ol class="serif__list">
+                    <li class="serif_list_item_1"><span class="font_name">Noto Serif</span>:це глобальна колекція шрифтів для письма всіма сучасними та стародавніми мовами. Noto Serif — це модульований («засічковий») дизайн для текстів латинським, кириличним та грецьким шрифтами, який також підходить як додатковий шрифт для інших шрифтів</li>
+                    <li class="serif_list_item_2"><span class="font_name">Gart Serif</span>:це сучасна українська гарнітура із засічками (2024 р.) від дизайнера Віталія Гоцанюка, що поєднує класичні традиції перехідної антикви 18-го століття з сучасними гострими формами. Вона містить 12 накреслень, кирилицю, розширену латиницю та варіативні версії, ідеальні для заголовків і тексту.</li>
+                    <li class="serif_list_item_3"><span class="font_name">Della Respira</span>:це декоративний шрифт із засічками, доступний на Google Fonts. Він має класичний, витончений вигляд, придатний для заголовків та коротких текстів. Хоча основна версія на Google Fonts орієнтована на латиницю, він часто використовується у комбінації з іншими шрифтами для українських проектів.</li>
+                </ol>
+            </div>
+            <div class="font_sans_serif">
+                <h2 class="font_sans_serif__title">Sans Serif</h2>
+                <ol class="sans_serif__list">
+                    <li class="sans_serif_list_item_1"><span class="font_name">Grotesque</span>:це рубані шрифти без зарубок, які чудово підходять для сучасних заголовків, інтерфейсів, веб-дизайну та друкованої продукції.(Rubik)</li>
+                    <li class="sans_serif_list_item_2"><span class="font_name">Neo-Grotesque</span>:це підкатегорія шрифтів без засічок, що з'явилася в середині XX століття (1950-ті рр.). Вони відрізняються від класичних гротесків XIX століття більшою регулярністю, нейтральністю, високою читабельністю та одноповерховою малою літерою «g». Вони ідеально підходять для інтерфейсів, довгих текстів та корпоративних стилів, забезпечуючи чистоту та ясність.(Inter)</li>
+                    <li class="sans_serif_list_item_3"><span class="font_name">Humanist</span>:Шрифт, що базується на пропорціях рукописного листа. Вони мають найбільший контраст штрихів, виглядають більш "теплими" та каліграфічними серед інших Sans Serif.(Cabin)</li>
+                </ol>
+            </div>
+            <div class="font_script">
+                <h2 class="font_script__title">Script</h2>
+                <ol class="script_list">
+                    <li class="script_list_item_1"><span class="font_name">Formal Script</span>:Елегантні, схожі на почерк пером.(Great Vibes)</li>
+                    <li class="script_list_item_2"><span class="font_name">Casual Script</span>:Більш невимушені, схожі на почерк ручкою чи маркером.(Dancing Script)</li>
+                    <li class="script_list_item_3"><span class="font_name">Elegant/Display Script</span>:Вишукані, часто використовуються для заголовків.(Pacifico)</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="font_size" id="size">
+            <h2 class="font_size__title_1">Розмір шрифтів</h2>
+            <p class="font-size__text">CSS-властивість font-size використовується для визначення розміру шрифта тексту в елементі. Вона дозволяє змінювати розмір шрифтів для заголовків, параграфів, кнопок, посилань та інших текстових елементів. Задання відповідного розміру шрифта є важливим для забезпечення комфортного читання та оптимального відображення тексту на веб-сторінці.</p>
+            <h4 class="font_size__title_2">Як працює властивість font-size</h4>
+            <ol class="size">
+                <li class="size_list_item_1">14</li>
+                <li class="size_list_item_2">28</li>
+                <li class="size_list_item_3">42</li>
+            </ol> 
+        </div>
+        <div class="font_weight" id="weight">
+            <h2 class="font_weight__title_1">Товщина шрифтів</h2>
+            <p class="font_weight__text">Для зміни товщини (жирності) тексту в CSS використовується властивість font-weight. Вона приймає ключові слова (normal, bold) або числові значення від 100 до 900 (крок 100), де 400 — це стандартна товщина (normal), а 700 — жирна (bold).</p>
+            <h4 class="font_weight__title_2">Основні значення font-weight:</h4>
+            <ol class="weight__list">
+                <li class="weight_list_item_1"> <span class="weight_name">Thin 100</span>:Приклад як виглядає шрифт товщина 100</li>
+                <li class="weight_list_item_2"> <span class="weight_name">ExtraLight 200</span>:Приклад як виглядає шрифт товщина 200</li>
+                <li class="weight_list_item_3"> <span class="weight_name">Light 300</span>:Приклад як виглядає шрифт товщина 300</li>
+                <li class="weight_list_item_4"> <span class="weight_name">Regular 400</span>:Приклад як виглядає шрифт товщина 400</li>
+                <li class="weight_list_item_5"> <span class="weight_name">Medium 500</span>:Приклад як виглядає шрифт товщина 500</li>
+                <li class="weight_list_item_6"> <span class="weight_name">SemiBold 600</span>:Приклад як виглядає шрифт товщина 600</li>
+                <li class="weight_list_item_7"> <span class="weight_name">Bold 700</span>:Приклад як виглядає шрифт товщина 700</li>
+                <li class="weight_list_item_8"> <span class="weight_name">ExtraBold 800</span>:Приклад як виглядає шрифт товщина 800</li>
+                <li class="weight_list_item_9"> <span class="weight_name">Black 900</span>:Приклад як виглядає шрифт товщина 900</li>
+            </ol>
+        </div>
+            <h2 class="other_properties_title">Інші корисні властивості</h2>
+                <div class="font_style" id="style">
+                    <h3 class="title_font_style">font-style</h3>
+                    <p class="font_style__text">Властивість font-style у мовах вебверстки (CSS) відповідає за накреслення тексту, переважно для створення курсиву.</p>
+                    <ol class="font_style_list">
+                        <li class="font_style_list_item_1"> <span class="style_name">normal</span>: Стандартне вертикальне накреслення (за замовчуванням).</li>
+                        <li class="font_style_list_item_2"> <span class="style_name">italic</span>: Курсивне накреслення. Використовує спеціально розроблений дизайнером похилий варіант шрифту.</li>
+                        <li class="font_style_list_item_3"> <span class="style_name">oblique</span>: Похиле накреслення. Браузер просто нахиляє звичайні літери під кутом (використовується рідше, якщо немає italic).</li>
+                    </ol>
+                </div>
+                <div class="line_height" id="height">
+                    <h3 class="line_height__title">line-height</h3>
+                    <p class="line_height__text_1">line-height— це властивість CSS, яка визначає відстань між базовими лініями тексту. Вона керує міжрядковим інтервалом (інтерліньяжем), дозволяючи тексту виглядати розрідженим або щільним. Задається у пікселях, відсотках, одиницях em, rem або безрозмірним множником (наприклад, 1.5).</p>
+                    <p class="line_height__text_2">Тут просто безсмислове речення для того щоб показати приклад</p>
+                </div>
+                <div class="letter_spacing" id="letter_spacing">
+                    <h3 class="letter_spacing__title">letter-spacing</h3>
+                    <p class="letter_spacing__text">letter-spacing в CSS — це властивість, яка визначає відстань (міжбуквений інтервал) між символами в тексті. Вона дозволяє збільшувати або зменшувати простір між літерами, впливаючи на розрядку тексту. Значення може бути в пікселях (), em, rem або інших одиницях.</p>
+                </div>
+                <div class="text_alight" id="text_align">
+                    <h3 class="text_alight__title">text-align</h3>
+                    <p class="text_alight__text">Властивість CSS text-align використовується для горизонтального вирівнювання тексту або інших інлайнових елементів всередині блочного елемента.</p>
+                    <p class="text_alight_item_1">Це текст по центру</p>
+                    <p class="text_alight_item_2">Це текст зліва</p>
+                    <p class="text_alight_item_3">Це текст справа</p>
+                </div>
+                <div class="text_decoration" id="text_decoration">
+                    <h3 class="text_decoration__title">text-decoration</h3>
+                    <p class="text_decoration__text">CSS-властивість text-decoration використовується для оздоблення тексту: додавання ліній під, над текстом або його перекреслення. Вона керує відображенням ліній (underline, overline, line-through, none). У сучасних стандартах (CSS3) це універсальна властивість, що об'єднує лінію (-line), колір (-color) та стиль (-style).</p>
+                    <ol class="text_decoration_list">
+                        <li class="text_decoration_list_item_1"><span class="style_name">none</span> Видаляє всі лінії оформлення.</li>
+                        <li class="text_decoration_list_item_3"><span class="style_name">overline</span>: Додає лінію над текстом.</li>
+                        <li class="text_decoration_list_item_2"><span class="style_name">underline</span>: Підкреслює текст </li>
+                        <li class="text_decoration_list_item_4"><span  class="style_name">line-through</span>: Перекреслює текст </li>
+                        
+                    </ol>
+                </div>
+                <div class="text_transform" id="text_transform">
+                    <h3 class="text_transform__text">text-transform</h3>
+                    <p class="text_transform__text">Властивість text-transform у CSS використовується для керування регістром символів у тексті (великі, малі літери). Вона дозволяє змінити зовнішній вигляд тексту без зміни самого вмісту в HTML-коді. </p>
+                    <ol class="text_transform_list">
+                        <li class="text_transform_list_item_1"><span class="style_name">uppercase</span>uppercase: Перетворює всі літери на ВЕЛИКІ.</li>
+                        <li class="text_transform_list_item_2"><span class="style_name">lowercase</span>: Перетворює всі літери на малі.</li>
+                        <li class="text_transform_list_item_3"><span class="style_name">capitalize</span>: Робить першу літеру кожного слова ВЕЛИКОЮ.</li>
+                        <li class="text_transform_list_item_4"><span class="style_name">none</span>: Значення за замовчуванням, текст залишається у тому регістрі, в якому він написаний.</li>
+                        <li class="text_transform_list_item_5"><span class="style_name">full-width</span>: Перетворює всі символи в символи повної ширини. </li>
+                    </ol>
+                </div>
+                <div class="text-indent" id="text_indent">
+                    <h3 class="text-indent__title">text-indent</h3>
+                    <p class="text-indent__text">Властивість text-indent у CSS встановлює відступ (червоний рядок) для першого рядка блоку тексту, не впливаючи на інші рядки. Підтримує пікселі (px), відсотки (%), em тощо. Значення може бути додатним (відступ справа) або від’ємним (виступ вліво). </p>
+                </div>
+                <div class="word-spacing" id="word_spacing">
+                    <h3 class="word-spacing__title">word-spacing</h3>
+                    <p class="word-spacing__text">word-spacing — це CSS-властивість, яка використовується для збільшення або зменшення відстані (інтервалу) між словами в тексті.</p>
+                </div>
+         <div class="color" id="color">
+            <h2 class="color__title">Призначення кольорів</h2>
+            <p class="color__text">Властивість color у CSS визначає колір тексту елемента. Вона може приймати значення як для однорідного кольору, так і для прозорості. Найчастіше використовують шістнадцятковий код (HEX, наприклад, #FF0000), назви кольорів (red), RGB (rgb(255,0,0)) або HSL. Можна також використовувати прозорість за допомогою rgba()</p>
+            <div class="color_hex">
+                <h3 class="color_hex__title">Шістнадцятковий (HEX):HEX-код кольору - це спосіб представлення кольору за допомогою шістнадцяткової (hexadecimal) системи числення. Він складається з шести символів (цифр від 0 до 9 та літер від A до F), які вказують на інтенсивність червоного (Red), зеленого (Green) та синього (Blue) кольорів у різних пропорціях. Кожна пара символів відповідає за один колір: перша пара - за червоний, друга - за зелений, третя - за синій.</h3>
+                <p class="color_hex__text_1">Як це працює?</p>
+                <p class="color_hex__text_2">Кожен символ у HEX-коді може мати значення від 0 до 15. Чим більше значення символу, тим більша інтенсивність відповідного кольору. Наприклад, HEX-код #FF0000 означає яскраво-червоний колір, оскільки перша пара символів (FF) має максимальне значення для червоного кольору, а інші пари символів (00) мають мінімальне значення для зеленого та синього кольорів.</p>
+                <p class="color_hex__text_3">#RRGGBB — ось як виглядає формат HEX. 
+                    <br>
+                    Наприклад, #FF5733:
+                    <br>
+                    FF — червоний (максимум, 255).
+                    <br>
+                    57 — зелений (87 у десятковій системі).
+                    <br>
+                    33 — синій (51 у десятковій системі).</p>
+            </div>
+            <div class="color_rgb">
+                <h3 class="color_rgb__title_1">RGB</h3>
+                <p class="color_rgb__text">RGB (Red, Green, Blue) — це адитивна колірна модель, що формує кольори на екранах (монітори, телефони) шляхом змішування червоного, зеленого та синього світла, де кожна компонента має значення від 0 до 255. RGBA (Red, Green, Blue, Alpha) додає четвертий параметр — альфа-канал, що задає прозорість від 0 (повністю прозорий) до 1 (непрозорий).</p>
+                <h4 class="color_rgb__title_2">Основні поняття RGB/RGBA</h4>
+                <ul class="color_rgb__list">
+                    <li class="color_rgb__list_item_1">RGB(R, G, B): Приклад: rgb(255, 0, 0) — чистий червоний.</li>
+                    <li class="color_rgb__list_item_2">RGBA(R, G, B, A): Приклад: rgba(255, 0, 0, 0.5) — напівпрозорий червоний.</li>
+                    <li class="color_rgb__list_item_3">Діапазон: Значення кольорів — 0-255, альфа-каналу — 0.0-1.0.</li>
+                </ul>
+            </div>
+            <div class="color_hsl/hsla">
+                <h3 class="color_hsl/hsla__title">HSL/HSLA:</h3>
+                <p class="color_hsl/hsla__text">HSL використовує три параметри для задання кольору: тон (hue), насиченість (saturation) і яскравість (lightness). HSLA додає прозорість.</p>
+            </div>
+        </div>   
+        <div class="shadow" id="shadow">
+            <h2 class="shadow__title">Тіні</h2>
+            <p class="shadow__text">text-shadow Задає тінь для тексту. Синтаксис:</p>
+            <ol class="shadow_list__item">
+                <li class="shadow_list__item_1">Перший параметр: горизонтальний зміщення.</li>
+                <li class="shadow_list__item_2">Другий параметр: вертикальний зміщення.</li>
+                <li class="shadow_list__item_3">Третій параметр (необов'язковий): розмиття.</li>
+                <li class="shadow_list__item_4">Четвертий параметр (необов'язковий): колір тіні.</li>
+            </ol>
+        </div>
+        <div class="right_side" id="side">
+            <h2 class="side_title">Grown <span>by Nature</span></h2>
+            <p class="side_text">We grow our crops naturally. We are a fast-growing agricultural technology company passionate about ensuring food security. We leverage our technology to improve productivity & sales to promote food security for you and your family.</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
