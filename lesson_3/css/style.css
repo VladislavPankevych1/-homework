@@ -1,8 +1,7 @@
 
-#header {
-    color: #2c3e50;
+#header  {
+    color: #1f81e4;
 }
-
 .symbols_item_1 > h3 {
     color: #2980b9;
 }
@@ -11,6 +10,7 @@
 .symbols_item_3 span {
     color: #27ae60;
 }
+
 
 
 .territory_of_Ukraine h2 + p {
