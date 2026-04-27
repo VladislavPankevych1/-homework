@@ -326,38 +326,38 @@ body {
 }
 
 
-.color-hex__title {
+.color_hex__title {
     color: rgb(83, 6, 208);
     font-size: 28px;
 }
 
-.color-hex__description {
+.color_hex__description {
     color: rgb(168, 8, 149);
 }
-.color-hex__description_item {
+.color_hex__description_item {
     color: rgb(111, 9, 127);
 }
 
-.color-hex__subtitle {
+.color_hex__subtitle {
     color: rgb(255, 136, 0);
     font-size: 28px;
     text-decoration: underline dotted;
 }
-.color-hex__text {
+.color_hex__text {
     color: #4abc04;
 }
-.color-hex__format {
+.color_hex__format {
     color: #e66be8;
-    font-size: 15ppx;
+    font-size: 15px;
 }
 
-.color-hex__example-title {
+.color_hex__example_title {
     color: #bf0d78;
 }
-.color-hex__list {
+.color_hex__list {
     color: rgb(162, 102, 24);
 }
-.color-hex__part {
+.color_hex__part {
     color: rgb(142, 8, 138);
 }
 
