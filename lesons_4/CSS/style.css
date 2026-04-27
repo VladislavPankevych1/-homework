@@ -36,13 +36,13 @@ body {
     color: rgb(167, 44, 44);
 }
 .serif_list_item_1 {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif',serif;
 }
 .serif_list_item_2 {
-    font-family: Gart Serif, serif;
+    font-family: Gart,serif;
 }
 .serif_list_item_3 {
-    font-family:Della Respira, serif ;
+    font-family:Della Respira,serif ;
 }
 
 
@@ -65,13 +65,13 @@ body {
 }
 
 .script_list_item_1{
-    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-family: Great Vibes,Arial, Helvetica,sans-serif;
 }
 .script_list_item_2{
-    font-family: Dancing Script, Arial, Helvetica, sans-serif;
+    font-family: Dancing Script,Arial, Helvetica,sans-serif;
 }
 .script_list_item_3{
-    font-family:Pacifico, Arial, Helvetica, sans-serif;
+    font-family:Pacifico,Arial, Helvetica,sans-serif;
 }
 
 
@@ -422,7 +422,7 @@ background: linear-gradient(90deg, rgba(33, 168, 222, 1) 0%, rgba(75, 197, 222, 
 
 
 .right_side {
-    font-family:Della Respira, serif ;
+    font-family:Della Respira,serif ;
     width: 474px;
     height: 220px;
     border:10px solid rgb(49, 217, 49) ;
