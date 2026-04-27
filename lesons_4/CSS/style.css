@@ -8,6 +8,15 @@ body {
     font-size: 38px;
 }
 
+.content_list .content_list__title {
+    color: #bf0d78;
+    font-size: 28px;
+}
+
+.content_list__item {
+    color: #610c3f;
+}
+
 .font_families__title { 
     color: rgb(184, 68, 68);
 }
