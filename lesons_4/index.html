@@ -9,8 +9,19 @@
     <title>HomeWork4</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1 class="header_title">Як можно працювати в CSS з текстом.</h1>
+         <div class="content_list">
+            <h2 class="content_list__title">Зміст</h2>
+            <ol class="content_list__item">
+                <li><a href="#families">Родини шрифтів</a></li>
+                <li><a href="#size">Розмір шрифтів</a></li>
+                <li><a href="#weight">Товщина шрифтів</a></li>
+                <li><a href="#other_properties">Інші корисні властивості</a></li>
+                <li><a href="#color">Колір</a></li>
+                <li><a href="#shadow">Тіні</a></li>
+            </ol>
+        </div>
     </header>
     <main>
         <div class="font_families"  id="families">
@@ -27,9 +38,9 @@
             <div class="font_sans_serif">
                 <h2 class="font_sans_serif__title">Sans Serif</h2>
                 <ol class="sans_serif__list">
-                    <li class="sans_serif_list_item_1"><span class="font_name">Grotesque</span>:це рубані шрифти без зарубок, які чудово підходять для сучасних заголовків, інтерфейсів, веб-дизайну та друкованої продукції.(Rubik)</li>
-                    <li class="sans_serif_list_item_2"><span class="font_name">Neo-Grotesque</span>:це підкатегорія шрифтів без засічок, що з'явилася в середині XX століття (1950-ті рр.). Вони відрізняються від класичних гротесків XIX століття більшою регулярністю, нейтральністю, високою читабельністю та одноповерховою малою літерою «g». Вони ідеально підходять для інтерфейсів, довгих текстів та корпоративних стилів, забезпечуючи чистоту та ясність.(Inter)</li>
-                    <li class="sans_serif_list_item_3"><span class="font_name">Humanist</span>:Шрифт, що базується на пропорціях рукописного листа. Вони мають найбільший контраст штрихів, виглядають більш "теплими" та каліграфічними серед інших Sans Serif.(Cabin)</li>
+                    <li class="sans_serif_list_item_1"><span class="font_name">Grotesque</span>:це рубані шрифти без зарубок, які чудово підходять для сучасних заголовків, інтерфейсів, веб-дизайну та друкованої продукції.</li>
+                    <li class="sans_serif_list_item_2"><span class="font_name">Neo-Grotesque</span>:це підкатегорія шрифтів без засічок, що з'явилася в середині XX століття (1950-ті рр.). Вони відрізняються від класичних гротесків XIX століття більшою регулярністю, нейтральністю, високою читабельністю та одноповерховою малою літерою «g». Вони ідеально підходять для інтерфейсів, довгих текстів та корпоративних стилів, забезпечуючи чистоту та ясність.</li>
+                    <li class="sans_serif_list_item_3"><span class="font_name">Humanist</span>:Шрифт, що базується на пропорціях рукописного листа. Вони мають найбільший контраст штрихів, виглядають більш "теплими" та каліграфічними серед інших Sans Serif.</li>
                 </ol>
             </div>
             <div class="font_script">
@@ -68,8 +79,8 @@
                 <li class="weight_list_item_9"> <span class="weight_name">Black 900</span>:Приклад як виглядає шрифт товщина 900</li>
             </ol>
         </div>
-            <h2 class="other_properties_title">Інші корисні властивості</h2>
-                <div class="font_style" id="style">
+            <h2 class="other_properties_title" id="other_properties">Інші корисні властивості</h2>
+                <div class="font_style" >
                     <h3 class="title_font_style">font-style</h3>
                     <p class="font_style__text">Властивість font-style у мовах вебверстки (CSS) відповідає за накреслення тексту, переважно для створення курсиву.</p>
                     <ol class="font_style_list">
@@ -78,49 +89,52 @@
                         <li class="font_style_list_item_3"> <span class="style_name">oblique</span>: Похиле накреслення. Браузер просто нахиляє звичайні літери під кутом (використовується рідше, якщо немає italic).</li>
                     </ol>
                 </div>
-                <div class="line_height" id="height">
+                <div class="line_height" >
                     <h3 class="line_height__title">line-height</h3>
                     <p class="line_height__text_1">line-height— це властивість CSS, яка визначає відстань між базовими лініями тексту. Вона керує міжрядковим інтервалом (інтерліньяжем), дозволяючи тексту виглядати розрідженим або щільним. Задається у пікселях, відсотках, одиницях em, rem або безрозмірним множником (наприклад, 1.5).</p>
                     <p class="line_height__text_2">Тут просто безсмислове речення для того щоб показати приклад</p>
                 </div>
-                <div class="letter_spacing" id="letter_spacing">
+                <div class="letter_spacing" >
                     <h3 class="letter_spacing__title">letter-spacing</h3>
                     <p class="letter_spacing__text">letter-spacing в CSS — це властивість, яка визначає відстань (міжбуквений інтервал) між символами в тексті. Вона дозволяє збільшувати або зменшувати простір між літерами, впливаючи на розрядку тексту. Значення може бути в пікселях (), em, rem або інших одиницях.</p>
                 </div>
-                <div class="text_alight" id="text_align">
+                <div class="text_alight" >
                     <h3 class="text_alight__title">text-align</h3>
                     <p class="text_alight__text">Властивість CSS text-align використовується для горизонтального вирівнювання тексту або інших інлайнових елементів всередині блочного елемента.</p>
                     <p class="text_alight_item_1">Це текст по центру</p>
                     <p class="text_alight_item_2">Це текст зліва</p>
                     <p class="text_alight_item_3">Це текст справа</p>
                 </div>
-                <div class="text_decoration" id="text_decoration">
-                    <h3 class="text_decoration__title">text-decoration</h3>
-                    <p class="text_decoration__text">CSS-властивість text-decoration використовується для оздоблення тексту: додавання ліній під, над текстом або його перекреслення. Вона керує відображенням ліній (underline, overline, line-through, none). У сучасних стандартах (CSS3) це універсальна властивість, що об'єднує лінію (-line), колір (-color) та стиль (-style).</p>
-                    <ol class="text_decoration_list">
-                        <li class="text_decoration_list_item_1"><span class="style_name">none</span> Видаляє всі лінії оформлення.</li>
-                        <li class="text_decoration_list_item_3"><span class="style_name">overline</span>: Додає лінію над текстом.</li>
-                        <li class="text_decoration_list_item_2"><span class="style_name">underline</span>: Підкреслює текст </li>
-                        <li class="text_decoration_list_item_4"><span  class="style_name">line-through</span>: Перекреслює текст </li>
-                        
-                    </ol>
-                </div>
-                <div class="text_transform" id="text_transform">
-                    <h3 class="text_transform__text">text-transform</h3>
-                    <p class="text_transform__text">Властивість text-transform у CSS використовується для керування регістром символів у тексті (великі, малі літери). Вона дозволяє змінити зовнішній вигляд тексту без зміни самого вмісту в HTML-коді. </p>
+                <div class="text_decoration" >
+                        <h3 class="text_decoration__title">text-decoration</h3>
+                        <p class="text_decoration__text">
+                            CSS-властивість text-decoration використовується для оздоблення тексту: додавання ліній під, над текстом або його перекреслення. Вона керує відображенням ліній (underline, overline, line-through, none). У сучасних стандартах (CSS3) це універсальна властивість, що об'єднує лінію (-line), колір (-color) та стиль (-style).
+                        </p>
+                        <ol class="text_decoration_list">
+                            <li class="text_decoration_list_item_1"><span class="style_name">none</span> — видаляє всі лінії оформлення.</li>
+                            <li class="text_decoration_list_item_2"><span class="style_name">overline</span> — додає лінію над текстом.</li>
+                            <li class="text_decoration_list_item_3"><span class="style_name">underline</span> — підкреслює текст.</li>
+                            <li class="text_decoration_list_item_4"><span class="style_name">line-through</span> — перекреслює текст.</li>       
+                        </ol>
+                    </div>
+
+                <div class="text_transform" >
+                    <h3 class="text_transform__title">text-transform</h3>
+                    <p class="text_transform__text">
+                        Властивість text-transform у CSS використовується для керування регістром символів у тексті (великі, малі літери). Вона дозволяє змінити зовнішній вигляд тексту без зміни самого вмісту в HTML-коді.
+                    </p>
                     <ol class="text_transform_list">
-                        <li class="text_transform_list_item_1"><span class="style_name">uppercase</span>uppercase: Перетворює всі літери на ВЕЛИКІ.</li>
+                        <li class="text_transform_list_item_1"><span class="style_name">uppercase</span>: Перетворює всі літери на ВЕЛИКІ.</li>
                         <li class="text_transform_list_item_2"><span class="style_name">lowercase</span>: Перетворює всі літери на малі.</li>
                         <li class="text_transform_list_item_3"><span class="style_name">capitalize</span>: Робить першу літеру кожного слова ВЕЛИКОЮ.</li>
-                        <li class="text_transform_list_item_4"><span class="style_name">none</span>: Значення за замовчуванням, текст залишається у тому регістрі, в якому він написаний.</li>
-                        <li class="text_transform_list_item_5"><span class="style_name">full-width</span>: Перетворює всі символи в символи повної ширини. </li>
+                        <li class="text_transform_list_item_4"><span class="style_name">none</span>: Значення за замовчуванням.</li>
                     </ol>
                 </div>
-                <div class="text-indent" id="text_indent">
+                <div class="text-indent" >
                     <h3 class="text-indent__title">text-indent</h3>
                     <p class="text-indent__text">Властивість text-indent у CSS встановлює відступ (червоний рядок) для першого рядка блоку тексту, не впливаючи на інші рядки. Підтримує пікселі (px), відсотки (%), em тощо. Значення може бути додатним (відступ справа) або від’ємним (виступ вліво). </p>
                 </div>
-                <div class="word-spacing" id="word_spacing">
+                <div class="word-spacing" >
                     <h3 class="word-spacing__title">word-spacing</h3>
                     <p class="word-spacing__text">word-spacing — це CSS-властивість, яка використовується для збільшення або зменшення відстані (інтервалу) між словами в тексті.</p>
                 </div>
@@ -128,18 +142,24 @@
             <h2 class="color__title">Призначення кольорів</h2>
             <p class="color__text">Властивість color у CSS визначає колір тексту елемента. Вона може приймати значення як для однорідного кольору, так і для прозорості. Найчастіше використовують шістнадцятковий код (HEX, наприклад, #FF0000), назви кольорів (red), RGB (rgb(255,0,0)) або HSL. Можна також використовувати прозорість за допомогою rgba()</p>
             <div class="color_hex">
-                <h3 class="color_hex__title">Шістнадцятковий (HEX):HEX-код кольору - це спосіб представлення кольору за допомогою шістнадцяткової (hexadecimal) системи числення. Він складається з шести символів (цифр від 0 до 9 та літер від A до F), які вказують на інтенсивність червоного (Red), зеленого (Green) та синього (Blue) кольорів у різних пропорціях. Кожна пара символів відповідає за один колір: перша пара - за червоний, друга - за зелений, третя - за синій.</h3>
-                <p class="color_hex__text_1">Як це працює?</p>
-                <p class="color_hex__text_2">Кожен символ у HEX-коді може мати значення від 0 до 15. Чим більше значення символу, тим більша інтенсивність відповідного кольору. Наприклад, HEX-код #FF0000 означає яскраво-червоний колір, оскільки перша пара символів (FF) має максимальне значення для червоного кольору, а інші пари символів (00) мають мінімальне значення для зеленого та синього кольорів.</p>
-                <p class="color_hex__text_3">#RRGGBB — ось як виглядає формат HEX. 
-                    <br>
-                    Наприклад, #FF5733:
-                    <br>
-                    FF — червоний (максимум, 255).
-                    <br>
-                    57 — зелений (87 у десятковій системі).
-                    <br>
-                    33 — синій (51 у десятковій системі).</p>
+                <h3 class="color-hex__title">Шістнадцятковий формат (HEX)</h3>
+                <p class="color-hex__description">
+                    <strong class="color-hex__description_item">HEX-код</strong> — це спосіб представлення кольору за допомогою шістнадцяткової системи числення. Він складається з шести символів (цифр <code>0-9</code> та літер <code>A-F</code>), які вказують на інтенсивність червоного (Red), зеленого (Green) та синього (Blue) кольорів.
+                </p>
+                <div class="color-hex__details">
+                    <p class="color-hex__subtitle"><strong>Як це працює?</strong></p>
+                    <p class="color-hex__text">
+                        Кожна пара символів відповідає за свій колір. Чим вище значення, тим більша інтенсивність. Наприклад, код <code>#FF0000</code> — це чистий червоний колір.
+                    </p>
+                    <p class="color-hex__format">
+                        Формат запису: <code>#RRGGBB</code>
+                    </p>
+                    <p class="color-hex__example-title">Наприклад, для кольору <code>#FF5733</code>:</p>
+                    <ul class="color-hex__list">
+                        <li><span class="color-hex__part">FF</span> — червоний (максимум, 255)</li>
+                        <li><span class="color-hex__part">57</span> — зелений (87 у десятковій системі)</li>
+                        <li><span class="color-hex__part">33</span> — синій (51 у десятковій системі)</li>
+                    </ul>
             </div>
             <div class="color_rgb">
                 <h3 class="color_rgb__title_1">RGB</h3>
@@ -151,14 +171,14 @@
                     <li class="color_rgb__list_item_3">Діапазон: Значення кольорів — 0-255, альфа-каналу — 0.0-1.0.</li>
                 </ul>
             </div>
-            <div class="color_hsl/hsla">
-                <h3 class="color_hsl/hsla__title">HSL/HSLA:</h3>
-                <p class="color_hsl/hsla__text">HSL використовує три параметри для задання кольору: тон (hue), насиченість (saturation) і яскравість (lightness). HSLA додає прозорість.</p>
+            <div class="color_hsl_hsla">
+                <h3 class="color_hsl_hsla__title">HSL/HSLA:</h3>
+                <p class="color_hsl_hsla__text">HSL використовує три параметри для задання кольору: тон (hue), насиченість (saturation) і яскравість (lightness). HSLA додає прозорість.</p>
             </div>
         </div>   
         <div class="shadow" id="shadow">
             <h2 class="shadow__title">Тіні</h2>
-            <p class="shadow__text">text-shadow Задає тінь для тексту. Синтаксис:</p>
+            <p class="shadow__text"><span class="style_name">Text-shadow</span>: — Задає тінь для тексту.</p>
             <ol class="shadow_list__item">
                 <li class="shadow_list__item_1">Перший параметр: горизонтальний зміщення.</li>
                 <li class="shadow_list__item_2">Другий параметр: вертикальний зміщення.</li>
@@ -167,12 +187,12 @@
             </ol>
         </div>
         <div class="right_side" id="side">
-            <h2 class="side_title">Grown <span>by Nature</span></h2>
+            <h2 class="side_title">Grown <span class="side_title__item">by Nature</span></h2>
             <p class="side_text">We grow our crops naturally. We are a fast-growing agricultural technology company passionate about ensuring food security. We leverage our technology to improve productivity & sales to promote food security for you and your family.</p>
         </div>
     </main>
     <footer>
-
+       
     </footer>
 </body>
 </html>
