@@ -74,10 +74,12 @@ body {
 
 
 .font_size h2 {
-    color:blueviolet
+    color:blueviolet;
+    font-size: 28px;
 }
-.font_size h4 {
+.font_size h3 {
     color: rgb(188, 190, 95);
+    font-size: 20px;
 }
 .font_size p {
     font-size: 20px;
@@ -106,9 +108,11 @@ body {
 
 .font_weight h2 {
     color: rgb(236, 209, 75);
+    font-size: 28px;
 }
-.font_weight h4 {
+.font_weight h3 {
     color: rgb(77, 149, 217);
+    font-size: 20px;
 }
 .font_weight p {
     color: rgb(238, 127, 36);
