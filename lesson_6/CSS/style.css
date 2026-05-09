@@ -136,49 +136,100 @@
     background-clip: text;
     color: transparent;
 }
+.home_task_1 {
+    background-image: url(../IMG/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 316px;
+    text-align: center;
+}
 
-
-
+.content_box {
+    padding-top: 60px;
+}
+.title_task_1 {
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.home_task_text a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.home_task_text span {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;    
+}
 
 
 .home_task_2 {
-    background-image: url(../IMG/image\ 6.png);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url(../IMG/image\ 6.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    min-height: 232px;
+    
 }
-.title_taks_2 {
+.title_task_2 {
     font-weight: 800;
     font-size: 64px;
-    line-height: 150%;
     text-transform: uppercase;
     color: #f9efec;
-    padding: 94px 502px 152px 501px;
+    margin-bottom: 17px;
+    width: 100%;
+    min-height: 96px;
 }
 
 .button_task_2 {
     background: #0a84ff;
     border-radius: 12px;
-    padding: 13px 78.5px 13px 78.5px;
-    max-width: 235px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    text-transform: capitalize;
-    text-align: center;
+    padding: 13px 40px; 
     color: #fff;
+    text-decoration: none;
+  
 }
 
 .home_task_3 {
     border-radius: 12px;
     padding: 32px;
+    width: 90%;
     max-width: 834px;
     background: #1a1a1a;
+    
 }
 
-.title_block_1.title_block_2.title_block_3.title_block_4 {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 150%;
+
+.info_block {
+    margin-bottom: 30px;
+}
+.title_block {
+   font-size: 24px;
     text-transform: uppercase;
     color: #f9efec;
+    margin-bottom: 15px;
 }
-
+.block_text {
+   font-size: 16px;
+    line-height: 1.6;
+    color: #b3b3b2;
+    margin-bottom: 15px;
+}
+.info_block_list {
+    width: 100%;
+}
+.block_text {
+   background-image: url(../IMG/twemoji_diamond-with-a-dot.svg);
+    background-repeat: no-repeat;
+    background-position: left top; 
+    padding-left: 30px;               
+    display: inline-block;            
+    text-align: left;
+}
