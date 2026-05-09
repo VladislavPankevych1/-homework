@@ -190,7 +190,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding-top: 60px;
     text-align: center;
     width: 100%;
     min-height: 342px;
@@ -198,13 +198,13 @@ body {
     
 }
 .title_task_2 {
-    font-family: Barlow, sans-serif;
+    font-family: "Barlow", sans-serif;
     font-weight: 800;
-    font-size: 64px;
-    line-height: 1.1;
+    font-size: 54px;
+    line-height: 1;
     color: #F9EFEC;
     text-transform: uppercase;
-    margin: 0 0 17px 0;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
