@@ -136,6 +136,13 @@
     background-clip: text;
     color: transparent;
 }
+
+.homework {
+    margin-top: 20px;
+}
+
+
+
 .home_task_1 {
     background-image: url(../IMG/Rectangle\ 1.jpg);
     background-repeat: no-repeat;
