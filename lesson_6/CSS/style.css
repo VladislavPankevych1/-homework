@@ -190,10 +190,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 60px;
+    padding: 20px;
     text-align: center;
     width: 100%;
-    height: 342px;
+    min-height: 342px;
     margin-bottom: 20px;
     
 }
@@ -201,7 +201,7 @@ body {
     font-family: Barlow, sans-serif;
     font-weight: 800;
     font-size: 64px;
-    line-height: 1.5;
+    line-height: 1.1;
     color: #F9EFEC;
     text-transform: uppercase;
     margin: 0 0 17px 0;
@@ -209,6 +209,8 @@ body {
 }
 
 .button_task_2 {
+    display: inline-block;
+    font-size: 14px;
     font-family:"Roboto Flex" ,sans-serif;
     background: #0a84ff;
     border-radius: 12px;
