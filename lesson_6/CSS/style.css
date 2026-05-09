@@ -128,14 +128,8 @@
     width: 400px;
     background-size: cover;
 }
-.background_clip {
-     background-image: url(../IMG/a-vibrant-gaming-pc-with-rgb-lighting-in-a-modern-workspace-setup-at-dusk-photo.jpeg);
-    min-height: 500px;      
-    width: 400px;
-    background-repeat: no-repeat;
-    background-clip: text;
-    color: transparent;
-}
+
+
 
 .homework {
     margin-top: 20px;
