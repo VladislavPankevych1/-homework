@@ -198,12 +198,14 @@ body {
     
 }
 .title_task_2 {
-    font-family: "Barlow", sans-serif;
+    font-family: Barlow, sans-serif;
     font-weight: 800;
     font-size: 64px;
+    line-height: 1.5;
+    color: #F9EFEC;
     text-transform: uppercase;
-    color: #f9efec;
-    margin-bottom: 50px;
+    margin: 0 0 17px 0;
+    padding: 0;
 }
 
 .button_task_2 {
