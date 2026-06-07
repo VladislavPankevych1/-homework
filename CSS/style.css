@@ -6,7 +6,7 @@ body {
     margin: 0;
     min-height: 100vh;
     
-    /* Центруємо основні блоки один під одним */
+
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -15,14 +15,13 @@ body {
 }
 
 .block_title {
-  /* 1. Делаем фон полупрозрачным (обязательно!) */
+
   background: rgba(255, 255, 255, 0.2); 
   
-  /* 2. Добавляем размытие заднего фона */
+ 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Для поддержки в Safari */
 
-  /* Дополнительные стили для красоты */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Тонкая рамка */
   border-radius: 15px; /* Скругление углов */
   padding: 20px;
@@ -31,9 +30,8 @@ body {
   color: white; /* Цвет текста */
 }
 
-CSS
-/* Основной контейнер для карточек */
-.link_list {
+
+.link_lessons_list {
   display: flex !important;
     flex-direction: row !important; /* ПРИМУСОВО В РЯД */
     flex-wrap: wrap;               /* Дозволяємо перенос, якщо екран вузький */
@@ -44,38 +42,36 @@ CSS
     max-width: 1200px;             /* Але не даємо йому бути ширшим за екран */
 }
 
-[class^="link_item_"] {
-  width: 250px;                 /* Фіксована ширина кожної картки */
+
+[class^="link_lessons__item"] {
+    width: 250px;
     height: 150px;
-    
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease;
+    overflow: hidden; /* важливо */
 }
 
-/* Эффект при наведении на карточку */
-[class^="link_item_"]:hover {
-    transform: translateY(-10px); /* Карточка приподнимается */
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.5);
-}
-
-/* Стилизация самой ссылки, чтобы она занимала всю карточку */
-.link_list a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-family: sans-serif;
+[class^="link_lessons__item"] a {
+    display: flex;        /* або block */
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
 }
+[class^="link_lessons__item"]:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(238, 231, 231, 0.5);
+    color: white;
+}
+
+

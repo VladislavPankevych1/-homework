@@ -1,0 +1,62 @@
+/* тут будуть всі шрифти які я піключав онлайн  */
+
+
+/* підключив Noto Serif шрифт */
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap);
+
+/* підключив Della Respira шрифт */
+@import url(https://fonts.googleapis.com/css2?family=Della+Respira&family=Noto+Serif:ital@0;1&display=swap);
+
+/* підключив Grotesque (Rubik)  шрифт */
+@import url(https://fonts.googleapis.com/css2?family=Della+Respira&family=Noto+Serif:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
+
+/* підключив Neo-Grotesque (Inter)  шрифт */
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+
+
+/* тут будуть всі шрифти які я піключав офлайн  */
+
+
+/*Підключив шрифт Gart Serif */
+@font-face {
+    font-family: 'Gart Serif';
+    src: url('../Fonts/gartseriftrial-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;}
+
+/*Підключив шрифт Humanist (Cabin) */
+
+@font-face {
+    font-family: 'Humanist';
+    src: url('../Fonts/Cabin-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Підключив шрифт Formal Script (Great Vibes) */
+
+@font-face {
+    font-family: 'Great Vibe';
+    src: url(../Fonts/GreatVibes-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Підключив шрифт Casual Script (Dancing Script) */
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../Fonts/DancingScript-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Підключив шрифт Elegant/Display Script (Pacifico) */
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../Fonts/Pacifico-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
